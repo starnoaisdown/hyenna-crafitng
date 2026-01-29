@@ -11,9 +11,13 @@
 
 </head>
 <style>
+    header.menu {
+        margin-top: 0px;
+    }
     ul.navMenu {
         display: flex;
         justify-content: center;
+        position: sticky;
     }
 
     ul.navMenu li {
@@ -41,50 +45,63 @@
         line-height: 68px;
         padding: 0px 48px;
     }
+
     body {
         margin: 0px;
         padding: 0px;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 0px;
     }
+
     div {
         margin: 0px;
         padding: 0px;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 0px;
     }
 </style>
 <div
-    style="background-image: url('galaxy.jpg'); background-size: 100% 100%; background-repeat: no-repeat; background-attachment: fixed; background-size: cover; position: relative;">
-    <div style="background-color: black; position: absolute; width: auto; position: absolute">
-        <header class="menu" style=" width:100%">
-            <h1 style="color: white; position: absolute; font-size: 125%; top: 0px; margin-left: 5px">AZMOLA CRAFTING
-            </h1>
-            <ul class="navMenu" style="margin-top:25px; position:absolute; width: auto; margin-left: 40px;">
-                <li style="padding-left: 5%; font-size: 75%"><a href="#">Home</a></li>
-                <li style="padding-left: 5%; font-size: 75%"><a href="#">Alchemy</a></li>
-                <li style="padding-left: 5%; font-size: 75%"><a href="#">Crafting</a></li>
-                <li style="padding-left: 5%; font-size: 75%"><a href="#">Crafting</a></li>
-            </ul>
-        </header>
-    </div>
-
+    style="background-image: url('galaxy.jpg'); background-size: 100% 100%; background-repeat: no-repeat; background-attachment: fixed; background-size: cover; position: relative; top: 0px;">
+        <header class="menu" style=" width:100%; background-color: transparent; position: sticky; width: 100%; top: 0px; z-index: 2;">
+        <h1 style="color: white; position: absolute; font-size: 125%; top: 0px; margin-left: 5px">AZMOLA CRAFTING
+        </h1>
+        <ul class="navMenu" style="margin-top:25px; position: absoulte; width: auto; margin-left: 40px;">
+            <li style="padding-left: 5%; font-size: 75%"><a href="#">Home</a></li>
+            <li style="padding-left: 5%; font-size: 75%"><a href="#">Alchemy</a></li>
+            <li style="padding-left: 5%; font-size: 75%"><a href="#">Crafting</a></li>
+            <li style="padding-left: 5%; font-size: 75%"><a href="#">Crafting</a></li>
+        </ul>
+    </header>
     <div>
         <body>
             <div style="height: 1000px; width: 50%; border-width: 0px;">
                 <h1 style="color:white; position: absolute; top: 400px; left: 200px; font-size: 50px">WELCOME TO AZMOLA
                     CRAFTING</h1>
-                <p style="color: white; position: absolute; top: 500px; left: 250px">Hello. I see you. It's either Darius, Tom, or Jacob. I stare at you. I know you're there.</p>
+                <p style="color: white; position: absolute; top: 500px; left: 250px">Hello. I see you. It's either
+                    Darius, Tom, or Jacob. I stare at you. I know you're there.</p>
 
             </div>
         </body>
     </div>
-
 </div>
-<div style="position: absolute; top: -25px; background-size: auto 100%; background-color: darkblue; position: relative;">
-    <div>
+<div
+    style="background-size: contain; position: absolute; top: -25px; background-size: auto 100%; background-color: darkblue; position: relative; height: auto;">
+    <div style="background-color:transparent">
         <h1 style="color: white; position: absolute; top: 10px;">ABOUT</h1>
-        <p style="color: white; position: absolute; top: 50px;">Welcome to the crafting of Azmola. For some reason, Tom thought it was a great idea to create a gaming website for users to use. We're still trying to figure out how to make it properly work, so stick around and find out! </p>
+        <p style="color: white; position: absolute; top: 50px;">Welcome to the crafting of Azmola. For some reason, Tom
+            thought it was a great idea to create a gaming website for users to use. We're still trying to figure out
+            how to make it properly work, so stick around and find out! </p>
         <br><br><br><br><br><br><br><br><br><br><br><br><br>
     </div>
-
-    <img src="point.jpg">
+    <div style="width: 50%; position: relative; padding-left: 20px; background-color:transparent">
+        <img src="point.jpg">
+    </div>
+    <div style="width: auto; position: relative; padding-left: 960px; background-color:transparent">
+        <p style="color:white">This is our DM. Tom. We have a lot of pictures of him that you'll see around this
+            website.</p>
+    </div>
 </div>
 
 </html>
